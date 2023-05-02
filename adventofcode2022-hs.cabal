@@ -22,4 +22,4 @@ library
 
 executable day1
   import:             common,solution
-  main-is:            day1/Day1.hs
+  main-is:            Day1/Day1.hs
