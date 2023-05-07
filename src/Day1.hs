@@ -21,5 +21,5 @@ part2 = sum . take 3 . sortOn negate . map sum
 
 main :: IO ()
 main = do
- let solution = L.Solution 1 parse part1 part2
- L.solve solution
+  let solution = L.Solution 1 parse part1 part2
+  L.solve solution

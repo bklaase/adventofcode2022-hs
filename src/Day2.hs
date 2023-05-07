@@ -48,5 +48,5 @@ part2 = part1 .  map fixRound
 -- solve
 main :: IO ()
 main = do
- let solution = L.Solution 2 parse part1 part2
- L.solve solution
+  let solution = L.Solution 2 parse part1 part2
+  L.solve solution

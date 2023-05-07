@@ -20,6 +20,10 @@ library
   exposed-modules:    AoC.Lib
   hs-source-dirs:     ./lib
 
+executable day00
+  import:             common,solution
+  main-is:            Day00.hs
+
 executable day1
   import:             common,solution
   main-is:            Day1.hs
@@ -27,3 +31,7 @@ executable day1
 executable day2
   import:             common,solution
   main-is:            Day2.hs
+
+executable day3
+  import:             common,solution
+  main-is:            Day3.hs
